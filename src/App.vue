@@ -187,7 +187,7 @@ const laserClass = computed(()=>{
 
 <template>
   <div class="container">
-
+    <h1 class="title">Anco Sam Franco Tech Copyright $copy; {{ new Date.getFullYear() }}. All right are reserved</h1>
     <h1 class="title">Tic Tac Toe</h1>
 
     <!-- PLAYER NAMES -->
