@@ -13,6 +13,7 @@ const board = ref([
 ])
 const history = ref([])
 const winLine = ref([])
+const currentYear = computed(() => new Date().getFullYear())
 
 // ---------- PLAYER INFO ----------
 const playerXName = ref("Player X")
@@ -187,7 +188,7 @@ const laserClass = computed(()=>{
 
 <template>
   <div class="container">
-    <h1 class="title">Anco Sam Franco Tech Copyright $copy; {{ new Date.getFullYear() }}. All right are reserved</h1>
+    <h1 class="title"> Anco Sam Franco Tech Copyright &copy; {{ currentYear }}, All rights reserved</h1>
     <h1 class="title">Tic Tac Toe</h1>
 
     <!-- PLAYER NAMES -->
