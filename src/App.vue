@@ -13,7 +13,7 @@ const board = ref([
 ])
 const history = ref([])
 const winLine = ref([])
-const currentYear = computed(() => new Date().getFullYear())
+const currentYear = new Date().getFullYear()
 
 // ---------- PLAYER INFO ----------
 const playerXName = ref("Player X")
